@@ -1,0 +1,178 @@
+"C:\Program Files\Java\jdk-17\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.2.2\lib\idea_rt.jar=51682" -Dfile.encoding=UTF-8 -classpath C:\spring\airtribe\out\production\airtribe Main
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 1
+=================================================
+                 ADD NEW PRODUCT
+=================================================
+Enter Product Name: Samosa
+Enter Price: 28
+Enter Quantity: 150
+---------------------------------
+     SUCCESS: Product added!
+---------------------------------
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 1
+=================================================
+                 ADD NEW PRODUCT
+=================================================
+Enter Product Name: Coffee
+Enter Price: 12
+Enter Quantity: 120
+---------------------------------
+     SUCCESS: Product added!
+---------------------------------
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 2
+=================================================
+                 PRODUCT INVENTORY
+=================================================
+No.   Product            Price        Quantity
+------------------------------------------------
+1           Samosa             28.00        150
+2           Coffee             12.00        120
+------------------------------------------------
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 3
+=======================================================
+                     STOCK SUMMARY
+=======================================================
+Product            Price        Quantity   Stock Value
+------------------------------------------------------
+Samosa             28.00        150        4200.00
+Coffee             12.00        120        1440.00
+------------------------------------------------------
+TOTAL STOCK VALUE:                         5640.00
+------------------------------------------------------
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 4
+=================================================
+             AVERAGE PRODUCT PRICE
+=================================================
+Average Price: Rs. 20.00
+Rounded Price: Rs. 20
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 5
+=================================================
+                RESTOCK PRODUCT
+=================================================
+Enter Product Number: 1
+Enter Quantity to add: 5
+
+---------------------------------
+SUCCESS: Product restocked!
+Product: Samosa
+Updated Quantity: 155
+---------------------------------
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 2
+=================================================
+                 PRODUCT INVENTORY
+=================================================
+No.   Product            Price        Quantity
+------------------------------------------------
+1           Samosa             28.00        155
+2           Coffee             12.00        120
+------------------------------------------------
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 6
+=================================================
+               DUPLICATE PRODUCT
+=================================================
+Product number: 2
+---------------------------------
+SUCCESS: Product duplicated!
+New Product Name: Coffee (copy)
+---------------------------------
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 2
+=================================================
+                 PRODUCT INVENTORY
+=================================================
+No.   Product            Price        Quantity
+------------------------------------------------
+1           Samosa             28.00        155
+2           Coffee             12.00        120
+3           Coffee (copy)      12.00        120
+------------------------------------------------
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose:
