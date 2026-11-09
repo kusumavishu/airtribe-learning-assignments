@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/airtribe.iml" filepath="$PROJECT_DIR$/airtribe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-assignment/demo-assignment.iml" filepath="$PROJECT_DIR$/demo-assignment/demo-assignment.iml" />
     </modules>
   </component>
 </project>
